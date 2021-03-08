@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color:#0079BF;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: 500px;
+ 
+ }
+ 
+ .header{
+     position: fixed;
+     /*width: 1345.67px;*/
+     width: 100%;
+     top: 0;
+     white-space: nowrap;
+     text-align: center;
+     color: white;
+     background-color:deepskyblue;
+     padding: 10px;
+ }
+ #slogen{
+     cursor: pointer;
+     display: inline;
+ }
+ 
+ .header img {
+     cursor: pointer;
+     position: relative;
+     width:22px;
+     top: 3.2px;
+ }
+ .secondheader{
+ 
+     width: 100%;
+     background-color:#0079BF;
+     margin-top: 2px;
+     margin-bottom: 5px;
+     
+ }
+ #username{
+     display: inline;
+     text-align: right;
+ }
+ #nameoflist{
+     margin-top: 55px;
+     margin-bottom: 8px;
+     padding: 5px;
+     width: 150px;
+     text-align: center;
+     margin-left: 6px;
+     color: white;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     cursor: pointer;
+ }
+ #nameoflist:hover{
+ 
+     background-color:rgba(232, 240, 243, 0.3);
+     border-radius: 10px;
+ }
+ 
+ .container{
+     margin-left: .5%;
+     width: 1338.67px;
+    /* min-height: 96vh;  1vh = 1% from space(browser height) */
+     background-color:#0079BF;
+     clear: both;
+     height: 520px;
+     
+ }
+ 
+ .mainlist{
+    margin-top: 5px;
+    float: left;  
+    margin-right: 8px;
+    border-radius: 20px;
+    width: 200.0271px; 
+    background-color:#EBECF0;
+    position: relative;
+    padding: 0 0 10px 0;
+     /*#F4F5F7*/
+ }
+ 
+ .list_description{
+     
+     padding-top: 15px;
+     padding-bottom: 8px;
+     font-weight: bold;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     text-align: center;
+     color: white;
+     margin: auto;
+     width: 100%;
+     word-wrap: break-word;
+     cursor: pointer;
+ }
+ 
+ #hiddeninput{
+    margin-top: 10px;
+    margin-left: 5px;
+ }
+ textarea{
+ 
+    width: 93.7%;
+    margin: auto;
+    height: 50px; 
+    resize: none; 
+    margin-bottom: 5px;
+    border-radius: 10px;
+ }
+ .cross{
+ 
+     display: inline; 
+     font-size: large;
+      margin-left: 15px;
+       cursor: pointer;
+ }
+ 
+ #butt{
+     display: inline;
+ }
+ 
+ #butt button{
+    height: 35px;
+    width: 90px;
+    outline: none;
+    border: none;
+    background-color:#0079BF;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+ }
+ #butt button:hover {
+     background-color: deepskyblue;
+ }
+ 
+ 
+ .addcard{
+    
+     color: rgb(56, 55, 55);
+     width: 90%;
+     padding-left: 5px;
+     margin: auto;
+     margin-top: 10px;
+     background-color: #EBECF0;
+     min-height: 22px;
+     border-radius: 20px;
+     cursor: pointer;
+
+ }
+ .addcard::before{
+ 
+     content: '\002B';
+     font-size: large;
+     margin-right: 10px;
+ }
+ .addcard:hover{
+     background-color:rgba(31, 36, 37, 0.2);
+     border-radius: 10px;
+ 
+ 
+ }
+ 
+ 
+ .addlist{
+     padding: .6%;
+     border-radius: 10px;
+     color: whitesmoke;
+     width: 174.0271px;
+     padding-left: 10px;
+     margin: auto;
+     margin-left: 5px;
+     margin-top: .5%;
+     background-color:deepskyblue;
+     min-height: 22px;
+     cursor: pointer;
+     display: inline-block;
+ }
+ .addlist::before{
+ 
+     content: '\002B';
+     font-size: large;
+     margin-right: 10px;
+ }
+ 
+ 
+ .addlist:hover{
+ background-color:rgba(190, 216, 223, 0.2);
+     border-radius: 10px;
+ }
+ 
+ .listinput{
+ 
+     width: 174.0271px;
+     float: left;
+     background-color: #EBECF0;
+     padding: 10px 10px 10px 10px;
+     border-radius: 8px;
+     margin-top: 10px;
+ }
+ .input input{
+ 
+     width: 95%;
+     outline: none;
+     height: 25px;
+     border-color:#0079BF ;
+     margin-top: 4px;
+ }
+
+ .cards span {
+     color: red;
+ }
+ .sub{
+     display: inline;}
+ .sub button{
+     outline: none;
+     background-color:#0079BF ;
+     color: white;
+     margin-top: 5px;
+     border: none;
+     height:30px;
+     width: 50%;
+     cursor: pointer;
+     border-radius: 10px;
+     margin-bottom: 4px;
+ }
+ .sub button:hover{
+    background-color: deepskyblue;
+ }
+ 
+ .crossnewlist{
+ 
+     display: inline;
+     margin-left: 20px;
+     cursor: pointer;
+ }
+ .cardsss{
+     margin-top: 6px;
+     max-height: 280px;
+     overflow-y: auto;
+     min-height: 30px;
+
+     
+ }
+ 
+ .cards{
+     max-width: 84%;
+     padding: 5%;
+     word-wrap: break-word;
+     border-radius: 5px;
+     margin: auto;
+     background-color: white;
+     color: #0079BF;
+     font-weight: bold;
+     margin-top: 6px;
+     cursor: pointer;
+     
+ }
+ 
+ .footer{
+     position: fixed;
+     bottom: 0;
+     color: white;
+     background-color:deepskyblue;
+     margin-top: auto;
+     padding: 10px;
+     width: 100%;
+ }
+ #end{
+     position: relative;
+     left: 45%;
+     margin: 0;
+     padding: 0;
+ 
+ 
+ }
+ 
+ ::-webkit-scrollbar {
+     width: 8px;
+     border-radius: 10px;
+   }
+   
+   /* Track */
+   ::-webkit-scrollbar-track {
+     background: #f1f1f1; 
+   }
+    
+   /* Handle */
+   ::-webkit-scrollbar-thumb {
+     background: #888; 
+   }
+   
+   /* Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+     background: #555; 
+   }
+ 
+ 

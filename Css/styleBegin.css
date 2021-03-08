@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: 500px;
+}
+.projectList{
+    margin-right:5%;
+    display: inline-block;
+    background: white;
+    border-radius: 10px;
+    background:#0079BF;
+    cursor: pointer;
+    width: 195px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large; 
+    margin-bottom: 20px; 
+}
+.projectList:hover{
+    opacity: .7;   
+}
+
+#content
+{
+    
+    text-align: center;
+    margin-top: 10%;
+    font-size: 100px;
+}
+#header{
+    height: 40px;
+    background: #0079BF;
+    width: 100%;
+    padding-top:5px;
+    margin:auto;
+    position: fixed;
+    top: 0;
+
+}
+#header #logo {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top :13px
+}
+#header #usName{
+    position: relative;
+    top: 16%;
+    left: 85%;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    width: 60%;
+}
+
+.contain 
+{
+    margin :auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 10%;
+}

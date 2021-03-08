@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+    <link href="Css/styleProject.css" rel="stylesheet">
+    </link>
+</head>
+<body> <div class="header" id="header">
+    <img src="images/1.png">
+    <div id="slogen" onclick="goBack()">  <b>To Do Best</b></div>
+</div>
+<div class="secondheader">
+    <div id="nameoflist" onclick="ListName()">  </div> 
+</div>
+
+
+
+<div class="container" id="window_width">
+    <div id="listssss" style="width: auto; height: 100%; display: inline;" style="overflow: visible;">
+    
+    <div class="mainlist" id="mainlist"  onclick="moveList(this)">
+        <div class="list_description" style="background-color:purple">
+            To Do
+        </div>
+
+        <div class="cardsss" id="cardes1">
+           
+
+        </div>
+        <div class="addcard" id="b" onclick="hideShow(this)">
+            Add Card
+        </div>
+        
+
+        <div id="hiddeninput" class="hiddeninput" style="display: none;">
+
+            <textarea id="textarea"></textarea>
+            <div id="butt">
+                <button  id="addbutton2" onclick="addCard(this)"> Submit</button>
+            </div>
+            <div id="cross1" class="cross" onclick="showHide(this)"> &#10006; </div>
+        </div>
+    </div>
+
+
+
+    <div class="mainlist" id="mainlist"   onclick="moveList(this)">
+        <div class="list_description" style="background-color: #27A401;">In Progress</div>
+        <div class="cardsss" >
+
+            
+        </div>
+        <div class="addcard" id="c" onclick="hideShow(this)">Add Card</div>
+
+        <div id="hiddeninput" class="hiddeninput" style="display: none;">
+
+            <textarea autofocus id="textarea"></textarea>
+            <div id="butt">
+                <button id="addbutton3" onclick="addCard(this)">Submit</button>
+            </div>
+            <div id="cross2" class="cross" onclick="showHide(this)"> &#10006; </div>
+        </div>
+    </div>
+
+
+
+    <div class="mainlist"  id="mainlist" onclick="moveList(this)">
+        <div class="list_description" style="background-color: #104CED;">
+            Done
+
+        </div>
+        <div class="cardsss">
+
+           
+        </div>
+        <div class="addcard" id="a" onclick="hideShow(this)">Add Card</div>
+
+        <div id="hiddeninput" class="hiddeninput" style="display: none;">
+
+            <textarea  id="textarea"></textarea>
+            <div id="butt">
+                <button id="addbutton" onclick="addCard(this)">Submit</button>
+            </div>
+            <div class="cross" id="cross3" onclick="showHide(this)"> &#10006; </div>
+        </div>
+    </div>
+
+</div>
+
+    <div  style="height: 100%; display: inline;"></div>
+    
+    <!--<div class="cards"></div>-->
+    <div class="addlist" id="addlist" onclick="addNewList(this)">
+      <b> Add a New List</b>
+    </div>
+    <div class="listinput" id="listinput" style="display: none;">
+        <div class="input">
+            <input type="text" placeholder="Enter Name..." value="" id="input">
+        </div>
+        <div class="sub" id="addnewlist">
+            <button onclick="cloneNewList()">Submit</button>
+        </div>
+        <div id="cross" class="crossnewlist" onclick="Cancel(this)">&#10006;</div>
+    </div>
+
+</div>
+<div class="footer">
+
+    <div id="end"> CopyRights &copy; For ITI Students</div>
+</div>
+<div class="cards" id="card1" style="display: none;" onclick="moveCard(this)" ondblclick="editCard(this)">
+    <div style="display: inline;  margin: auto;" ></div>
+    <span onclick="removeCard(this)" style=" float: right;"> &#10006;  </span>
+    
+    
+</div>
+        
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/Project.js"></script>
+</body>
